@@ -16,7 +16,7 @@ public class HooksTagSteps {
     	
 	}
 	
-	@After(order=1)
+	@After(order=0)
 	public void CloseBrowser()
 	{
 	System.out.println("closing the browser");
